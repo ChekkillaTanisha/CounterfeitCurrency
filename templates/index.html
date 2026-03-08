@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Currency Detection</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+    <div class="container">
+<h1><b>FAKE CURRENCY DETECTION SYSTEM</b></h1>
+<br/>
+<h2>Upload Currency Note Image to check whether it is Real Or Fake</h2>
+
+<form action="/upload" method="post" enctype="multipart/form-data">
+
+<input type="file" name="image">
+
+<br><br><br>
+
+<!-- <input type="submit" value="Upload and Detect"> -->
+ <button type="submit">Upload and Detect</button>
+
+</form>
+</div>
+
+</body>
+</html>

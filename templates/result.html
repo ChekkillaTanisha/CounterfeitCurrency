@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Detection Result</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body class="result-body">
+
+<div class="result-container">
+
+<h1><b>CURRENCY DETECTION RESULT</b></h1>
+
+<div class="result-box">
+
+<p class="result-text">
+    Detection Result: <span>{{ result }}</span>
+</p>
+
+</div>
+
+<a href="/" class="back-btn">Check Another Note</a>
+
+</div>
+
+</body>
+</html>
